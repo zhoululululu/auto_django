@@ -1,0 +1,20 @@
+ERROR - [2021-12-23 18:00:00,123] - get_logging.py - __console : 61] : 检查数据清除出错： could not broadcast input array from shape (4,) into shape (1,)
+ERROR - [2021-12-23 18:01:08,368] - get_logging.py - __console : 61] : 检查数据清除出错： could not broadcast input array from shape (4,) into shape (1,)
+ERROR - [2021-12-23 18:02:01,957] - get_logging.py - __console : 61] : 检查数据清除出错： could not broadcast input array from shape (4,) into shape (1,)
+ERROR - [2021-12-23 18:02:53,271] - get_logging.py - __console : 61] : 检查数据清除出错： could not broadcast input array from shape (4,) into shape (1,)
+ERROR - [2021-12-23 18:07:46,762] - get_logging.py - __console : 61] : 检查数据清除出错： could not broadcast input array from shape (4,) into shape (1,)
+ERROR - [2021-12-23 18:08:45,250] - get_logging.py - __console : 61] : 检查数据清除出错： could not broadcast input array from shape (4,) into shape (1,)
+ERROR - [2021-12-23 18:17:09,540] - get_logging.py - __console : 61] : 检查数据清除出错： [Errno 13] Permission denied: 'D:\\py_workspace\\auto_django\\auto_django\\resultfile\\2021-12-22__check_sql_result.xlsx'
+ERROR - [2021-12-23 18:28:48,493] - get_logging.py - __console : 61] : 报错信息： too many values to unpack (expected 2)
+ERROR - [2021-12-23 18:48:24,945] - get_logging.py - __console : 61] : 报错信息： too many values to unpack (expected 2)
+ERROR - [2021-12-23 18:49:03,016] - get_logging.py - __console : 61] : 报错信息： too many values to unpack (expected 2)
+ERROR - [2021-12-23 18:49:29,012] - get_logging.py - __console : 61] : 报错信息： too many values to unpack (expected 2)
+ERROR - [2021-12-23 18:51:25,253] - get_logging.py - __console : 61] : 报错信息： can only concatenate str (not "QuerySet") to str
+ERROR - [2021-12-23 18:51:57,693] - get_logging.py - __console : 61] : 报错信息： 'QuerySet' object has no attribute 'value'
+ERROR - [2021-12-23 18:52:12,955] - get_logging.py - __console : 61] : 报错信息： can only concatenate str (not "QuerySet") to str
+ERROR - [2021-12-23 18:52:34,939] - get_logging.py - __console : 61] : 报错信息： can only concatenate str (not "QuerySet") to str
+ERROR - [2021-12-23 18:52:57,865] - get_logging.py - __console : 61] : 报错信息： 'QuerySet' object has no attribute 'tolist'
+ERROR - [2021-12-23 18:53:14,809] - get_logging.py - __console : 61] : 报错信息： can only concatenate str (not "QuerySet") to str
+ERROR - [2021-12-23 18:53:31,225] - get_logging.py - __console : 61] : 报错信息： can only concatenate str (not "QuerySet") to str
+ERROR - [2021-12-23 18:53:42,065] - get_logging.py - __console : 61] : 报错信息： can only concatenate str (not "QuerySet") to str
+ERROR - [2021-12-23 18:54:39,985] - get_logging.py - __console : 61] : 报错信息： 'QuerySet' object has no attribute 'to_dict'

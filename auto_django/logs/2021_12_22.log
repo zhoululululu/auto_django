@@ -1,0 +1,11 @@
+ERROR - [2021-12-22 17:57:04,099] - get_logging.py - __console : 61] : 检查数据清除出错： arrays must all be same length
+ERROR - [2021-12-22 17:58:44,195] - get_logging.py - __console : 61] : 检查数据清除出错： If using all scalar values, you must pass an index
+ERROR - [2021-12-22 18:00:37,005] - get_logging.py - __console : 61] : 检查数据清除出错： If using all scalar values, you must pass an index
+ERROR - [2021-12-22 18:02:24,614] - get_logging.py - __console : 61] : 检查数据清除出错： If using all scalar values, you must pass an index
+ERROR - [2021-12-22 18:04:38,474] - get_logging.py - __console : 61] : 检查数据清除出错： If using all scalar values, you must pass an index
+ERROR - [2021-12-22 18:06:05,835] - get_logging.py - __console : 61] : 检查数据清除出错： If using all scalar values, you must pass an index
+ERROR - [2021-12-22 18:08:19,294] - get_logging.py - __console : 61] : 检查数据清除出错： If using all scalar values, you must pass an index
+ERROR - [2021-12-22 18:09:40,773] - get_logging.py - __console : 61] : 检查数据清除出错： If using all scalar values, you must pass an index
+ERROR - [2021-12-22 18:11:00,421] - get_logging.py - __console : 61] : 检查数据清除出错： If using all scalar values, you must pass an index
+ERROR - [2021-12-22 18:12:32,405] - get_logging.py - __console : 61] : 检查数据清除出错： If using all scalar values, you must pass an index
+ERROR - [2021-12-22 18:13:28,918] - get_logging.py - __console : 61] : 检查数据清除出错： If using all scalar values, you must pass an index

@@ -1,0 +1,43 @@
+ERROR - [2021-12-21 11:17:16,490] - get_logging.py - __console : 61] : 报错信息： 'InMemoryUploadedFile' object has no attribute 'save'
+ERROR - [2021-12-21 11:28:25,736] - get_logging.py - __console : 61] : 报错信息： can only concatenate str (not "InMemoryUploadedFile") to str
+ERROR - [2021-12-21 14:11:13,434] - get_logging.py - __console : 61] : 获取订单号出错： __init__() missing 1 required positional argument: 'file'
+ERROR - [2021-12-21 14:11:46,982] - get_logging.py - __console : 61] : 获取订单号出错： can only concatenate str (not "NoneType") to str
+ERROR - [2021-12-21 14:12:08,447] - get_logging.py - __console : 61] : 获取订单号出错： can only concatenate str (not "NoneType") to str
+ERROR - [2021-12-21 14:12:38,472] - get_logging.py - __console : 61] : 获取订单号出错： can only concatenate str (not "NoneType") to str
+ERROR - [2021-12-21 14:13:46,529] - get_logging.py - __console : 61] : 获取订单号出错： (2003, "Can't connect to MySQL server on '10.31.40.10' (timed out)")
+ERROR - [2021-12-21 14:14:37,305] - get_logging.py - __console : 61] : 获取订单号出错： not enough values to unpack (expected 3, got 2)
+ERROR - [2021-12-21 14:15:03,484] - get_logging.py - __console : 61] : 获取订单号出错： not enough values to unpack (expected 3, got 2)
+ERROR - [2021-12-21 14:15:56,063] - get_logging.py - __console : 61] : 获取订单号出错： NOT NULL constraint failed: t_check_sql.create_time
+ERROR - [2021-12-21 14:43:00,501] - get_logging.py - __console : 61] : 获取数据出错： unsupported operand type(s) for -: 'NoneType' and 'int'
+ERROR - [2021-12-21 14:44:02,514] - get_logging.py - __console : 61] : 获取数据出错： unsupported operand type(s) for -: 'NoneType' and 'int'
+ERROR - [2021-12-21 14:45:29,939] - get_logging.py - __console : 61] : 获取数据出错： unsupported operand type(s) for -: 'NoneType' and 'int'
+ERROR - [2021-12-21 14:46:10,994] - get_logging.py - __console : 61] : 获取数据出错： QuerySet indices must be integers or slices, not str.
+ERROR - [2021-12-21 14:46:58,759] - get_logging.py - __console : 61] : 获取数据出错： QuerySet indices must be integers or slices, not str.
+ERROR - [2021-12-21 15:08:56,416] - get_logging.py - __console : 61] : 获取数据出错： 'TCheckSql' object has no attribute 'to_dict'
+ERROR - [2021-12-21 15:10:04,446] - get_logging.py - __console : 61] : 获取数据出错： 'TCheckSql' object has no attribute 'to_dict'
+ERROR - [2021-12-21 15:10:16,384] - get_logging.py - __console : 61] : 获取数据出错： 'TCheckSql' object has no attribute 'to_dict'
+ERROR - [2021-12-21 15:12:19,425] - get_logging.py - __console : 61] : 获取数据出错： 'TCheckSql' object has no attribute 'to_dict'
+ERROR - [2021-12-21 15:12:39,809] - get_logging.py - __console : 61] : 获取订单号出错： 'NoneType' object has no attribute 'get'
+ERROR - [2021-12-21 15:13:18,098] - get_logging.py - __console : 61] : 获取数据出错： 'TCheckSql' object has no attribute 'to_dict'
+ERROR - [2021-12-21 15:13:52,833] - get_logging.py - __console : 61] : 获取数据出错： 'TCheckSql' object has no attribute 'to_dict'
+ERROR - [2021-12-21 15:14:16,328] - get_logging.py - __console : 61] : 获取数据出错： 'TCheckSql' object has no attribute 'to_dict'
+ERROR - [2021-12-21 16:06:54,416] - get_logging.py - __console : 61] : 获取数据出错： ['“” value has an invalid date format. It must be in YYYY-MM-DD format.']
+ERROR - [2021-12-21 16:07:06,392] - get_logging.py - __console : 61] : 获取数据出错： ['“” value has an invalid date format. It must be in YYYY-MM-DD format.']
+ERROR - [2021-12-21 16:07:24,927] - get_logging.py - __console : 61] : 获取数据出错： ['“” value has an invalid date format. It must be in YYYY-MM-DD format.']
+ERROR - [2021-12-21 16:07:26,480] - get_logging.py - __console : 61] : 获取数据出错： ['“” value has an invalid date format. It must be in YYYY-MM-DD format.']
+ERROR - [2021-12-21 16:07:52,973] - get_logging.py - __console : 61] : 获取数据出错： ['“” value has an invalid date format. It must be in YYYY-MM-DD format.']
+ERROR - [2021-12-21 16:07:53,960] - get_logging.py - __console : 61] : 获取数据出错： ['“” value has an invalid date format. It must be in YYYY-MM-DD format.']
+ERROR - [2021-12-21 16:10:03,701] - get_logging.py - __console : 61] : 获取数据出错： ['“” value has an invalid date format. It must be in YYYY-MM-DD format.']
+ERROR - [2021-12-21 16:10:38,863] - get_logging.py - __console : 61] : 获取数据出错： ['“” value has an invalid date format. It must be in YYYY-MM-DD format.']
+ERROR - [2021-12-21 16:10:41,841] - get_logging.py - __console : 61] : 获取数据出错： ['“” value has an invalid date format. It must be in YYYY-MM-DD format.']
+ERROR - [2021-12-21 16:10:46,217] - get_logging.py - __console : 61] : 获取数据出错： ['“” value has an invalid date format. It must be in YYYY-MM-DD format.']
+ERROR - [2021-12-21 16:10:56,890] - get_logging.py - __console : 61] : 获取数据出错： ['“” value has an invalid date format. It must be in YYYY-MM-DD format.']
+ERROR - [2021-12-21 16:11:14,623] - get_logging.py - __console : 61] : 获取数据出错： ['“” value has an invalid date format. It must be in YYYY-MM-DD format.']
+ERROR - [2021-12-21 16:11:15,097] - get_logging.py - __console : 61] : 获取数据出错： ['“” value has an invalid date format. It must be in YYYY-MM-DD format.']
+ERROR - [2021-12-21 16:11:15,529] - get_logging.py - __console : 61] : 获取数据出错： ['“” value has an invalid date format. It must be in YYYY-MM-DD format.']
+ERROR - [2021-12-21 16:11:36,790] - get_logging.py - __console : 61] : 获取数据出错： ['“” value has an invalid date format. It must be in YYYY-MM-DD format.']
+ERROR - [2021-12-21 16:11:58,576] - get_logging.py - __console : 61] : 获取数据出错： ['“” value has an invalid date format. It must be in YYYY-MM-DD format.']
+ERROR - [2021-12-21 16:12:21,840] - get_logging.py - __console : 61] : 获取数据出错： ['“” value has an invalid date format. It must be in YYYY-MM-DD format.']
+ERROR - [2021-12-21 16:13:03,281] - get_logging.py - __console : 61] : 获取数据出错： ['“” value has an invalid date format. It must be in YYYY-MM-DD format.']
+ERROR - [2021-12-21 16:13:37,780] - get_logging.py - __console : 61] : 获取数据出错： ['“” value has an invalid date format. It must be in YYYY-MM-DD format.']
+ERROR - [2021-12-21 16:13:54,456] - get_logging.py - __console : 61] : 获取数据出错： ['“” value has an invalid date format. It must be in YYYY-MM-DD format.']

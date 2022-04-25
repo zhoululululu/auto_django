@@ -1,0 +1,14 @@
+ERROR - [2022-01-24 14:19:39,433] - get_logging.py - __console : 61] : 获取数据出错： unsupported operand type(s) for -: 'NoneType' and 'int'
+ERROR - [2022-01-24 14:19:42,022] - get_logging.py - __console : 61] : 获取数据出错： unsupported operand type(s) for -: 'NoneType' and 'int'
+ERROR - [2022-01-24 14:19:54,439] - get_logging.py - __console : 61] : 获取数据出错： unsupported operand type(s) for -: 'NoneType' and 'int'
+ERROR - [2022-01-24 14:20:01,126] - get_logging.py - __console : 61] : 获取数据出错： unsupported operand type(s) for -: 'NoneType' and 'int'
+ERROR - [2022-01-24 14:20:25,676] - get_logging.py - __console : 61] : 获取数据出错： unsupported operand type(s) for -: 'NoneType' and 'int'
+ERROR - [2022-01-24 14:23:18,657] - get_logging.py - __console : 61] : 获取数据出错： 'list'
+ERROR - [2022-01-24 14:23:58,176] - get_logging.py - __console : 61] : 获取数据出错： 'TValidationResult' object has no attribute 'to_dict'
+ERROR - [2022-01-24 14:24:03,000] - get_logging.py - __console : 61] : 获取数据出错： 'TValidationResult' object has no attribute 'to_dict'
+ERROR - [2022-01-24 15:04:25,604] - get_logging.py - __console : 61] : 获取数据出错： Field 'id' expected a number but got '2,3'.
+ERROR - [2022-01-24 15:05:39,386] - get_logging.py - __console : 61] : 获取数据出错： Field 'id' expected a number but got '3,2'.
+ERROR - [2022-01-24 15:05:39,386] - get_logging.py - __console : 61] : 获取数据出错： Field 'id' expected a number but got '3,2'.
+ERROR - [2022-01-24 18:00:07,761] - get_logging.py - __console : 61] : 获取数据出错： argument of type 'int' is not iterable
+ERROR - [2022-01-25 16:17:52,271] - get_logging.py - __console : 61] : 报错信息： Field 'id' expected a number but got <built-in function id>.
+ERROR - [2022-01-25 16:18:02,342] - get_logging.py - __console : 61] : 报错信息： Field 'id' expected a number but got <built-in function id>.

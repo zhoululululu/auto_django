@@ -1,0 +1,518 @@
+# IS下单
+ship_order: '{
+    "timeStamp": 1625131909816,
+    "messageId": "bad2e885076b4147921e6307971e4",
+    "data": {
+        "isId": "%s",
+        "isMasterId": "%s",
+        "orderCreatedDate": "2021-08-05T14:31:49+0800",
+        "collectionType": "0",
+        "dropSiteId": "%s",
+        "sellerAddrId": "%s",
+        "consigneeFullName": "%s",
+        "consigneePhone": "%s",
+        "consigneeCountry": "%s",
+        "consigneeState": "%s",
+        "consigneeCity": "%s",
+        "consigneeAddr1": "%s",
+        "consigneeAddr2": "%s",
+        "consigneeZipCode": "%s",
+        "incoterm": 0,
+        "lengthUnit": "0",
+        "weightUnit": "0",
+        "packageInfoList": [
+            {
+                "trackingNumber": "%s",
+                "serviceId": "%s",
+                "packageTotalWeight":%.2f,
+                "packageLength": 10.0,
+                "packageWidth": 10.0,
+                "packageHeight": 10.0,
+                "insurancedValue": 2.0,
+                "currency": "%s",
+                "itemInfoList": [
+                    {
+                        "sku": "1623996116735",
+                        "skuDescCn": "%s",
+                        "skuDesc": "%s",
+                        "skuWeight": 100.0,
+                        "skuValue": %.2f,
+                        "currency": "%s",
+                        "transactionId": "1623996116735-1623996116735",
+                        "quantity": 1,
+                        "link": "http://www.ebay.com/itm/1623996116735",
+                        "txnUnitPrice":  %.2f,
+                        "txnQty": 1,
+                        "skuListingDesc": "Tissue paper"
+                    }
+                ],
+                "packageDesc": "%s",
+                "packageDescCn": "%s",
+                "packageId": "930093704194457692"
+            }
+        ],
+        "sendProvinceName": "广东省",
+        "deliveryTime": "Aug 5, 2021 5:31:49 PM"
+    }
+}'
+# 打标
+get_letter_dg: '{
+  "facilitycode": "%s",
+  "operateUser": "ZL",
+  "superTrackingNumberList": [
+    {
+      "superTrackingNumber": "%s",
+      "code": "1",
+      "scanTime": "%s"
+    }
+  ]
+}'
+get_letter_not_dg: '{
+  "data": {
+    "facilitycode":"%s",
+    "operateUser":"ZL",
+    "superTrackingNumberList":[
+      {
+        "superTrackingNumber":"%s",
+        "code":"1",
+        "scanTime":"%s"
+      }
+    ]
+  },
+  "timeStamp": "%s",
+  "messageId": "201907041026540004"
+}
+'
+
+# dg换单
+get_label_dg: '{
+  "scanPackageTime": "%s",
+  "packageWeight": "%s",
+  "trackingNumber": "%s",
+  "endStatus": "null",
+  "packageheight": 10,
+  "packagewidth": 10,
+  "packagelength": 40
+}'
+# 非dg换单
+get_label_not_dg: '{
+	"data":
+	{
+		"scanPackageTime":"%s",
+		"packageWeight":"%s",
+		"trackingNumber":"%s",
+		"facilityCode":"%s",
+		"referenceNumber":"null",
+		"operateUser":"ZL"
+		},
+		"messageId":"201708141026540001",
+		"timestamp":"%s"
+}'
+
+# 建包
+bu_bag: '{
+  "data":{
+    "facilityCode": "%s",
+    "operateUser":"ZL",
+    "temporaryBagNo":"AP2018112800016",
+    "bagRealWeight":"%s",
+    "weightUnit":0,
+    "bagRealVolume":10.0,
+    "volumeUnit":1,
+    "battery":"%s",
+    "firstSortingResult":"%s",
+    "sortingResult":"%s",
+    "endBagTime":"%s",
+    "packageInfoList":
+    [
+      {
+        "lastmileTrackingNumber":"%s"
+      }],
+    "bagLength": 40,
+	"bagWidth": 10,
+	"bagHeight": 30},
+  "messageId":"201908141026540002",
+  "timestamp":"%s"
+}'
+# 获取比邮大包号
+get_last_mile_bag: '{
+    "data": {
+        "facilityCode": "%s",
+        "quantity": 1,
+        "requestTime": "%s"
+    },
+    "messageId": "201908141026540002",
+    "timestamp": "%s"
+}'
+
+#负重
+bag_weight: '{
+  "bag_real_weight": "%s",
+  "bagNo": "%s",
+  "operationTime": "%s"
+}'
+
+# 出库
+out_package: '{
+  "data": {
+    "bagInfoList": [
+      {
+        "bagId": "%s",
+        "scanBagTime": "%s"
+      } ],
+    "deliveryNo": "%s",
+    "deliveryTime": "%s",
+    "expectedArrivalTime": "%s",
+    "driverContactName": "HOAU",
+    "driverContactPhone": "1223333",
+    "transportation": 1,
+    "transportationInfo": "粤A36636",
+    "departure": "YW006",
+    "destination": "DHL-SHA",
+    "vehicleload": 1
+  },
+  "messageId": "1620962743000",
+  "timestamp": "%s"
+}'
+consignee:
+  # 加拿大
+  CA:
+    consigneeFullName: "VnigDY"
+    consigneePhone: "1001111"
+    consigneeState: "New Brunswick"
+    consigneeCity: "DY"
+    consigneeZipCode: "U7Y9V8"
+    address: "DYnigDY"
+    address2: ""
+    skuDescCn: "戂窷齖嫺胭殍郼蒂皽擇羂騈糵"
+    skuDesc: "nigDY"
+  # 澳大利亚
+  AU:
+    #    South Australia 5086 Western Australia 6157
+    consigneeFullName: "YcBeVnigDYYcBeVnigD"
+    consigneePhone: "1001111"
+    consigneeState: "South Australia"
+    consigneeCity: "Palmyra"
+    consigneeZipCode: "5086"
+    address: "YcBeVnigDYYcBYcBeVnigig"
+    address2: ""
+    skuDescCn: "尺子"
+    skuDesc: "rule"
+  # 德国
+  DE:
+    consigneeFullName: "xMan"
+    consigneePhone: "1001111"
+    consigneeState: "Germany"
+    consigneeCity: "Stuttgart"
+    consigneeZipCode: "70327"
+    address: "Schlotterbeckstraße 17"
+    address2: "ssssdsadasssssdsadasssssdsadasssssdsadasssssdsadasssssdsadasssssdsadasssssdsadasssssdsadasssssdsadasssssdsa"
+    skuDescCn: "尺子"
+    skuDesc: "rule"
+  # 美国
+  US:
+    consigneeFullName: "xMan"
+    consigneePhone: "1001111"
+    consigneeState: "NewYork"
+    consigneeCity: "Brooklyn"
+    consigneeZipCode: "00606"
+    address: "Obere Kr?blitzer Str. 7"
+    address2: ""
+    skuDescCn: "尺子"
+    skuDesc: "rule"
+
+  # 英国
+  GB:
+    consigneeFullName: "xMan"
+    consigneePhone: "1001111"
+    consigneeState: "United Kingdom"
+    consigneeCity: "Leicester"
+    consigneeZipCode: "14086"
+    address: "Obere Kr?blitzer Str. 7"
+    address2: "ssssdsadas"
+    skuDescCn: "尺子"
+    skuDesc: "rule"
+
+  # 塞浦路斯
+  CY:
+    consigneeFullName: "xMan"
+    consigneePhone: "1001111"
+    consigneeState: "paphos"
+    consigneeCity: "chloraka"
+    consigneeZipCode: "8220"
+    address: "Obere Kr?blitzer Str. 7"
+    address2: ""
+    skuDescCn: "尺子"
+    skuDesc: "rule"
+  # 意大利
+  IT:
+    consigneeFullName: "xMan"
+    consigneePhone: "1001111"
+    consigneeState: "Italy"
+    consigneeCity: "modena"
+    consigneeZipCode: "41122"
+    address: "The Old Creamery"
+    address2: "ssssdsadasssssdsadasssssdsadasssssdsadasssssdsadasssssdsadasssssdsadasssssdsadasssssdsadasssssdsadasssssdsa"
+    skuDescCn: "尺子"
+    skuDesc: "rule"# 爱尔兰
+  IE:
+    consigneeFullName: "xMan"
+    consigneePhone: "1001111"
+    consigneeState: "Clare"
+    consigneeCity: "modena"
+    consigneeZipCode: "41122"
+    address: "The Old Creamery"
+    address2: ""
+    skuDescCn: "尺子"
+    skuDesc: "rule"
+  #匈牙利
+  HU:
+    consigneeFullName: "xMan"
+    consigneePhone: "1001111"
+    consigneeState: "Hungary"
+    consigneeCity: "Békéscsaba"
+    consigneeZipCode: "5600"
+    address: "Táncsics utca 6-10"
+    address2: ""
+    skuDescCn: "尺子"
+    skuDesc: "rule"
+  #立陶宛
+  LT:
+    consigneeFullName: "xMan"
+    consigneePhone: "1001111"
+    consigneeState: "Lithuania"
+    consigneeCity: "Ukmerge"
+    consigneeZipCode: "20180"
+    address: "Anyksciu 25-31"
+    address2: ""
+    skuDescCn: "尺子"
+    skuDesc: "rule"
+  # 法国
+  FR:
+    consigneeFullName: "wwwg0irEKs"
+    consigneeState: "France"
+    consigneePhone: "1001111"
+    consigneeCity: "Rocroi"
+    consigneeZipCode: "08230"
+    address: "g0irEKsx60J8UD4oY"
+    address2: ""
+    skuDescCn: "茱郮憪長狗涹蘰韱悥"
+    skuDesc: "qKKTkzxVMN1ePe8JC"
+  #马耳他
+  MT:
+    consigneeFullName: "xMan"
+    consigneePhone: "1001111"
+    consigneeState: "Zabbar"
+    consigneeCity: "Zabbar"
+    consigneeZipCode: "ZBR2725"
+    address: "71 Kuncizzjoni, triq il-Qaqocc"
+    address2: ""
+    skuDescCn: "尺子"
+    skuDesc: "rule"
+  ## 塞浦路斯
+  EE:
+    consigneeFullName: "g0irEKsx60J8UD4oYcBeVnigDY8CrvJ8UD4oYcBe"
+    consigneePhone: "1001111"
+    consigneeState: "afddffd"
+    consigneeCity: "Lancaster"
+    consigneeZipCode: "14086"
+    address: "27 Sawgrass Lane"
+    address2: ""
+    skuDescCn: "尺子"
+    skuDesc: "rule"
+
+  BE:
+    consigneeFullName: "cinéma"
+    consigneePhone: "1001111"
+    consigneeState: "state"
+    consigneeCity: "Lancaster"
+    consigneeZipCode: "9052"
+    address: "YcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeV"
+    address2: ""
+    skuDescCn: "尺子"
+    skuDesc: "cinéma,tuqYcBeVnigDYYcBeVnigDYYcB"
+
+  NZ:
+    consigneeFullName: "YcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDY"
+    consigneePhone: "1001111"
+    consigneeState: "afddffd"
+    consigneeCity: "Greymouth"
+    consigneeZipCode: "1234"
+    address: "YcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDY"
+    address2: ""
+    skuDescCn: "茱郮憪長狗擇羂騈糵茱郮憪長狗擇羂騈糵茱郮憪長狗擇羂騈糵茱郮憪長狗擇羂騈糵茱郮憪長狗擇羂騈糵茱郮憪長狗擇羂騈糵茱郮憪長狗擇羂騈糵"
+    skuDesc: "YcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDY"
+  IL:
+    consigneeFullName: "xMan"
+    consigneePhone: "1001111"
+    consigneeState: "afddffd"
+    consigneeCity: "Lancaster"
+    consigneeZipCode: "4529201"
+    address: "27 Sawgrass Lane"
+    address2: ""
+    skuDescCn: "尺子"
+    skuDesc: "rule"
+  AT:
+    consigneeFullName: "xMan"
+    consigneePhone: "1001111"
+    consigneeState: "afddffd"
+    consigneeCity: "Lancaster"
+    consigneeZipCode: "4529201"
+    address: "27 Sawgrass Lane"
+    address2: ""
+    skuDescCn: "尺子"
+    skuDesc: "rule"
+  MX:
+    consigneeFullName: "xMan"
+    consigneePhone: "1001111"
+    consigneeState: "afddffd"
+    consigneeCity: "Lancaster"
+    consigneeZipCode: "01028"
+    address: "27 Sawgrass Lane"
+    address2: ""
+    skuDescCn: "尺子"
+    skuDesc: "rule"
+
+  SE:
+    consigneeFullName: "xMan"
+    consigneePhone: "1001111"
+    consigneeState: "state"
+    consigneeCity: "Lancaster"
+    consigneeZipCode: "90525"
+    address: "27 Sawgrass Lane"
+    address2: ""
+    skuDescCn: "尺子"
+    skuDesc: "rule"
+
+  NL:
+    consigneeFullName: "xMan"
+    consigneePhone: "1001111"
+    consigneeState: "state"
+    consigneeCity: "Lancaster"
+    consigneeZipCode: "90525"
+    address: "27 Sawgrass Lane"
+    address2: ""
+    skuDescCn: "尺子"
+    skuDesc: "rule"
+
+  GR:
+    consigneeFullName: "xMan"
+    consigneePhone: "1001111"
+    consigneeState: "state"
+    consigneeCity: "Lancaster"
+    consigneeZipCode: "90525"
+    address: "27 Sawgrass Lane"
+    address2: ""
+    skuDescCn: "尺子"
+    skuDesc: "rule"
+  PL:
+    consigneeFullName: "xMan"
+    consigneePhone: "1001111"
+    consigneeState: "state"
+    consigneeCity: "Lancaster"
+    consigneeZipCode: "90525"
+    address: "27 Sawgrass Lane"
+    address2: ""
+    skuDescCn: "尺子"
+    skuDesc: "rule"
+  HR:
+    consigneeFullName: "xMan"
+    consigneePhone: "1001111"
+    consigneeState: "state"
+    consigneeCity: "Lancaster"
+    consigneeZipCode: "90525"
+    address: "27 Sawgrass Lane"
+    address2: ""
+    skuDescCn: "尺子"
+    skuDesc: "rule"
+  RU:
+    consigneeFullName: "xMan"
+    consigneePhone: "1001111"
+    consigneeState: "state"
+    consigneeCity: "Lancaster"
+    consigneeZipCode: "90525"
+    address: "27 Sawgrass Lane"
+    address2: ""
+    skuDescCn: "尺子"
+    skuDesc: "rule"
+  CZ:
+    consigneeFullName: "xMan"
+    consigneePhone: "1001111"
+    consigneeState: "state"
+    consigneeCity: "Lancaster"
+    consigneeZipCode: "90525"
+    address: "27 Sawgrass Lane"
+    address2: ""
+    skuDescCn: "尺子"
+    skuDesc: "rule"
+  PT:
+    consigneeFullName: "xMan"
+    consigneePhone: "1001111"
+    consigneeState: "state"
+    consigneeCity: "Lancaster"
+    consigneeZipCode: "90525"
+    address: "27 Sawgrass Lane"
+    address2: ""
+    skuDescCn: "尺子"
+    skuDesc: "rule"
+  AL:
+    consigneeFullName: "xMan"
+    consigneePhone: "1001111"
+    consigneeState: "state"
+    consigneeCity: "Lancaster"
+    consigneeZipCode: "93901"
+    address: "27 Sawgrass Lane"
+    address2: ""
+    skuDescCn: "尺子"
+    skuDesc: "rule"
+  AF:
+    consigneeFullName: "xMan"
+    consigneePhone: "1001111"
+    consigneeState: "state"
+    consigneeCity: "Lancaster"
+    consigneeZipCode: "00621"
+    address: "27 Sawgrass Lane"
+    address2: ""
+    skuDescCn: "尺子"
+    skuDesc: "rule"
+  MY:
+    consigneeFullName: "xMan"
+    consigneePhone: "1001111"
+    consigneeState: "state"
+    consigneeCity: "Lancaster"
+    consigneeZipCode: "01500"
+    address: "27 Sawgrass Lane"
+    address2: ""
+    skuDescCn: "尺子"
+    skuDesc: "rule"
+  SG:
+    consigneeFullName: "xMan"
+    consigneePhone: "1001111"
+    consigneeState: "state"
+    consigneeCity: "Lancaster"
+    consigneeZipCode: "018958"
+    address: "27 Sawgrass Lane"
+    address2: ""
+    skuDescCn: "尺子"
+    skuDesc: "rule"
+  DK:
+    consigneeFullName: "cinéma,tuqYcBeVnigDYYcBeVnigDYYcBeVnigDY"
+    consigneePhone: "1001111"
+    consigneeState: "state"
+    consigneeCity: "Lancaster"
+    consigneeZipCode: "90525"
+    address: "YcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDY"
+    address2: ""
+    skuDescCn: "尺子"
+    skuDesc: "cinématuqYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDYY"
+  # 西班牙
+  ES:
+    consigneeFullName: "cinématuqYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDY"
+    consigneePhone: "1001111"
+    consigneeState: "Pennsylvania"
+    consigneeCity: "YcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigig"
+    consigneeZipCode: "90007"
+    address: "cinématuqYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDY"
+    address2: ""
+    skuDescCn: "茱郮憪長狗涹蘰捎徒颉峮些觍臎齖箑闤鑩埀堹掺蘞鉃惲軚钏窵丄仭参诌裖僇鱽繴箾譵率锨開彿罇暈烐值鈷擞撲嫕暲跂簗薌酘嵞縌陆鮍鵮喫延砨崡缙掾黂聨蘔槹鱊炮繸蠬炕蝽幐鞢憡隙妷钘扇憒袦凩韱悥戂窷齖嫺胭殍郼蒂皽擇羂騈糵"
+    skuDesc: "iensgqsDYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDYYcBeVnigDYY"

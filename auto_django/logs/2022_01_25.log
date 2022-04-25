@@ -1,0 +1,8 @@
+ERROR - [2022-01-25 17:15:42,152] - get_logging.py - __console : 61] : 获取数据出错： argument of type 'int' is not iterable
+ERROR - [2022-01-25 17:15:48,099] - get_logging.py - __console : 61] : 获取数据出错： argument of type 'int' is not iterable
+ERROR - [2022-01-25 17:16:44,505] - get_logging.py - __console : 61] : 获取数据出错： argument of type 'int' is not iterable
+ERROR - [2022-01-25 17:17:22,537] - get_logging.py - __console : 61] : 获取数据出错： argument of type 'int' is not iterable
+ERROR - [2022-01-25 17:32:34,222] - get_logging.py - __console : 61] : 获取数据出错： argument of type 'int' is not iterable
+ERROR - [2022-01-25 17:33:40,886] - get_logging.py - __console : 61] : 获取数据出错： argument of type 'int' is not iterable
+ERROR - [2022-01-25 17:35:05,784] - get_logging.py - __console : 61] : 获取数据出错： argument of type 'int' is not iterable
+ERROR - [2022-01-25 17:44:44,204] - get_logging.py - __console : 61] : 获取数据出错： Field 'id' expected a number but got ''.

@@ -1,0 +1,27 @@
+INFO - [2022-01-26 17:04:41,092] - get_logging.py - __console : 55] : 生成为头程号段为 : EE10000261440780001040003D0D
+INFO - [2022-01-26 17:04:41,093] - get_logging.py - __console : 55] : 生成为订单号为 : 100002614407
+ERROR - [2022-01-28 11:49:44,408] - get_logging.py - __console : 61] : 获取数据出错： Field 'id' expected a number but got ''.
+ERROR - [2022-01-28 14:13:06,939] - get_logging.py - __console : 61] : 获取数据出错： Field 'id' expected a number but got ''.
+ERROR - [2022-01-28 14:13:10,532] - get_logging.py - __console : 61] : 获取数据出错： Field 'id' expected a number but got ''.
+ERROR - [2022-01-28 14:13:12,358] - get_logging.py - __console : 61] : 获取数据出错： Field 'id' expected a number but got ''.
+ERROR - [2022-01-28 14:13:14,440] - get_logging.py - __console : 61] : 获取数据出错： Field 'id' expected a number but got ''.
+ERROR - [2022-01-28 14:13:20,657] - get_logging.py - __console : 61] : 获取数据出错： Field 'id' expected a number but got ''.
+ERROR - [2022-01-28 14:13:24,066] - get_logging.py - __console : 61] : 获取数据出错： Field 'id' expected a number but got ''.
+INFO - [2022-01-28 15:11:03,910] - get_logging.py - __console : 55] : 生成为头程号段为 : ES10000261440800001040001G0D
+INFO - [2022-01-28 15:11:03,910] - get_logging.py - __console : 55] : 生成为订单号为 : 100002614408
+INFO - [2022-01-28 15:11:04,766] - get_logging.py - __console : 55] : 生成为头程号段为 : ES10000261440920001040001B0D
+INFO - [2022-01-28 15:11:04,766] - get_logging.py - __console : 55] : 生成为订单号为 : 100002614409
+INFO - [2022-01-28 15:11:05,568] - get_logging.py - __console : 55] : 生成为头程号段为 : ES10000261441060001040001E0D
+INFO - [2022-01-28 15:11:05,569] - get_logging.py - __console : 55] : 生成为订单号为 : 100002614410
+INFO - [2022-01-28 16:25:16,968] - get_logging.py - __console : 55] : 生成为头程号段为 : ES10000261441190001040001B0D
+INFO - [2022-01-28 16:25:16,968] - get_logging.py - __console : 55] : 生成为订单号为 : 100002614411
+INFO - [2022-01-28 16:25:17,872] - get_logging.py - __console : 55] : 生成为头程号段为 : ES10000261441210001040001D0D
+INFO - [2022-01-28 16:25:17,872] - get_logging.py - __console : 55] : 生成为订单号为 : 100002614412
+INFO - [2022-01-28 16:25:18,753] - get_logging.py - __console : 55] : 生成为头程号段为 : ES10000261441330001040001B0D
+INFO - [2022-01-28 16:25:18,753] - get_logging.py - __console : 55] : 生成为订单号为 : 100002614413
+INFO - [2022-01-28 16:49:16,604] - get_logging.py - __console : 55] : 生成为头程号段为 : ES10000261441450001040001A0D
+INFO - [2022-01-28 16:49:16,604] - get_logging.py - __console : 55] : 生成为订单号为 : 100002614414
+INFO - [2022-01-28 16:49:17,495] - get_logging.py - __console : 55] : 生成为头程号段为 : ES10000261441580001040001F0D
+INFO - [2022-01-28 16:49:17,495] - get_logging.py - __console : 55] : 生成为订单号为 : 100002614415
+INFO - [2022-01-28 16:49:18,378] - get_logging.py - __console : 55] : 生成为头程号段为 : ES10000261441600001040001B0D
+INFO - [2022-01-28 16:49:18,378] - get_logging.py - __console : 55] : 生成为订单号为 : 100002614416

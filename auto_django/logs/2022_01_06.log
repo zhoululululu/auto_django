@@ -1,0 +1,4 @@
+ERROR - [2022-01-06 17:47:55,566] - get_logging.py - __console : 61] : 获取数据出错： unsupported operand type(s) for -: 'NoneType' and 'int'
+ERROR - [2022-01-06 17:48:54,696] - get_logging.py - __console : 61] : 获取数据出错： TValidationTestCase() got an unexpected keyword argument 'test_data'
+ERROR - [2022-01-06 17:49:28,693] - get_logging.py - __console : 61] : 获取数据出错： TValidationTestCase() got an unexpected keyword argument 'test_data'
+ERROR - [2022-01-06 17:49:51,231] - get_logging.py - __console : 61] : 获取数据出错： TValidationTestCase() got an unexpected keyword argument 'exp_desc'
